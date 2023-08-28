@@ -1,0 +1,144 @@
+@media (max-width: 1350px){
+  .container_header{
+      .logo{
+          margin: 0 3rem;
+      }
+
+      .menu{
+          margin: 0 4rem;
+      }
+  }
+
+  .container_title{
+      margin: 28rem 4rem;
+  }
+
+  .about_me, .contacts, .projects, .services, .skills{
+      margin-left: 4rem;
+      margin-right: 4rem;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .contacts{
+      flex-direction: column;
+      .media{
+          margin: 3rem 0;
+      }
+      :last-child{
+          margin-bottom: 0;
+      }
+  }
+
+  .servs{
+      flex-direction: column;
+
+      .service{
+          margin: 3rem 0;
+      }
+
+      :last-child{
+          margin-bottom: 0;
+      }
+  }
+
+  .sklls{
+      flex-direction: column;
+
+      .skill{
+          margin: 3rem 0;
+      }
+
+      :last-child{
+          margin-bottom: 0;
+      }
+  }
+}
+
+@media (max-width: 880px) {
+  .container_header{
+      flex-direction: column;
+      padding: 0;
+      align-items: flex-start;
+
+      button{
+          display: flex;
+      }
+
+      .menu.active {
+          height: auto;
+      }
+
+      .menu{
+          overflow: hidden;
+          text-align: center;
+          flex-direction: column;
+          width: 100%;
+          margin: 0;
+          height: 0;
+          
+          ul{
+            flex-direction: column;
+            gap: 0px;
+          }
+
+          p{
+              margin: 2rem 0;
+              width: 100%;
+              
+              a{
+                  pointer-events: auto;
+              }
+          }
+      }
+  }
+  .container_title{
+      flex-direction: column;
+      margin: 8rem 4rem;
+
+      .title{
+          margin-bottom: 4rem;
+      }
+  }
+}
+
+@media (max-width: 480px) {
+  .buttons{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      #green{
+          margin-right: 0;
+          margin-bottom: 2rem;
+      }
+  }
+
+  .container_title{
+      margin: 4rem 4rem;
+  }
+  .img_bg{
+      display: none;
+  }
+  p{
+      font-size: 20px;
+  }
+
+  h3{
+      font-size: 28px;
+  }
+  span{
+      font-size: 18px;
+  }
+
+  .service{
+      width: 250px;
+  }
+
+  .footer{
+      margin: 0 2rem;
+      text-align: center;
+  }
+}
