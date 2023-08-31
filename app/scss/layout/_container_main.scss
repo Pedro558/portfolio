@@ -187,6 +187,10 @@
                 flex-direction: column;
                 justify-content: space-between;
 
+                a:hover{
+                    filter: brightness(0.6);
+                }
+
                 .img_proj{
                     height: 130px;
                     background: var(--dark);
@@ -305,9 +309,8 @@
                     width: 80px;
                 }
 
-                img:hover{
+                a:hover{
                     filter: brightness(0.6);
-                    cursor: pointer;
                 }
             }
         }
