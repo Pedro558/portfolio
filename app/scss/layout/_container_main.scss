@@ -141,17 +141,17 @@
                     margin-bottom: 1rem;
                 }
 
-                span{
+                a, span{
                     font-weight: 400;
                     font-size: 20px;
                     line-height: 21px;
                     color: var(--grey);
                 }
-            }
-        }
 
-        :last-child{
-            margin-right: 0;
+                a:hover{
+                    color: var(--blue)
+                }
+            }
         }
     }
 
@@ -179,10 +179,13 @@
             
 
             .proj{
-                padding: 2rem;
+                padding: 1rem;
                 background: var(--medium-dark);
                 width: 400px;
-                height: 250px;
+                height: 305px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
 
                 .img_proj{
                     height: 130px;
@@ -190,18 +193,27 @@
                     margin-bottom: 1.5rem;
                 }
 
-                p{
+                .proj_content p{
                     font-weight: 500;
                     font-size: 22px;
                     line-height: 23px;
                     margin-bottom: 1rem;
                 }
 
-                span{
+                .technologies{
+                    display: flex;
+                    gap: 1rem;
+                    flex-wrap: wrap;
+                }
+
+                .technology{
                     font-weight: 400;
-                    font-size: 18px;
+                    font-size: 14px;
                     line-height: 18px;
-                    color: var(--grey);
+                    color: var(--light-grey);
+                    background-color: var(--bg-grey);
+                    padding: 5px;
+                    border-radius: 20px;   
                 }
             }
         }
@@ -224,14 +236,13 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 0 9.38rem;
+            gap: 7rem;
             
 
             .service{
                 background: var(--medium-dark);
                 padding: 1.875rem;
-                margin-right: 5rem;
-                border-bottom: 5px solid #00DF5E;
+                border-bottom: 5px solid #4e46cd;
                 width: 350px;
                 height: 240px;
 
@@ -273,14 +284,16 @@
         .sklls{
             display: flex;
             justify-content: center;
+            flex-wrap: wrap;
+            row-gap: 4rem;
             align-items: center;
             margin: 0 9.38rem;
+            gap: 5rem;
 
             .skill{
                 border: 1px solid #333333;
                 background: var(--medium-dark);
                 padding: 2.188rem;
-                margin-right: 5rem;
                 width: 150px;
                 height: 140px;
                 display: flex;
@@ -288,13 +301,14 @@
                 align-items: center;
 
                 img{
-                    height: 80px;
+                    height: auto;
                     width: 80px;
                 }
-            }
 
-            :last-child{
-                margin: 0;
+                img:hover{
+                    filter: brightness(0.6);
+                    cursor: pointer;
+                }
             }
         }
     }
