@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/dist/styles.css">
-    <script src="https://kit.fontawesome.com/de306f5493.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/14a36c34f0.js" crossorigin="anonymous"></script>
     <title>Portfólio | Pedro</title>
 </head>
 <body>
@@ -34,7 +34,7 @@
 
         <main class="container_main">
             <div class="container_main-width">
-            <div class="container_title">
+            <section class="container_title">
                 <div class="title">
                     <div class="content">
                         <h2>Olá, eu sou o <br>Pedro :)</h2>
@@ -50,114 +50,176 @@
                 <div class="img_bg">
                     <img src="./assets/title.svg" alt="imagem principal, ilustração de um homem segurando um aparelho celular" class="img">
                 </div>
-            </div>
+            </section>
 
-            <div class="about_me">
+            <section class="about_me" id="about-me">
                 <h3>Sobre mim</h3>
                 <p>
                     Sou um desenvolvedor front-end com mais de um ano de experiência com criação de landing pages, sistemas e aplicações web. 
                 </br></br>
                     Concluí em 2022 a graduação em Sistemas de Informação pela Estácio de Sá onde pude obter bases sólidas sobre programação e engenharia de software.
                 </p>
-            </div>
+            </section>
 
-            <div class="contacts">
+            <section class="contacts">
                 <div class="media">
                     <div class="icon_bg">
-                        <i class="far fa-smile"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
                     </div>
                     <div class="description">
-                        <p>Meu Nome</p>
-                        <span>Daniel Sá</span>
+                        <p>Linkedin</p>
+                        <a href="https://www.linkedin.com/in/pedro-afonso-lkdn/" target="_blank">
+                            Pedro Afonso
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
                     </div>
                 </div>
 
                 <div class="media">
                     <div class="icon_bg">
-                        <i class="far fa-envelope"></i>
+                        <i class="fa-brands fa-github"></i>
                     </div>
                     <div class="description">
-                        <p>Email</p>
-                        <span>pedroafonso109@gmail.com</span>
+                        <p>GitHub</p>
+                        <a href="https://www.github.com/Pedro558" target="_blank">
+                            Pedro558
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
                     </div>
                 </div>
 
                 <div class="media">
                     <div class="icon_bg">
-                        <i class="fab fa-instagram"></i>
+                        <i class="fa-brands fa-instagram"></i>
                     </div>
                     <div class="description">
                         <p>Instagram</p>
-                        <span>@pe_afonsooo</span>
+                        <a href="https://www.instagram.com/pe_afonsoo/" target="_blank">
+                            pe_afonsoo
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
                     </div>
                 </div>
+
                 
                 <div class="media">
                     <div class="icon_bg">
-                        <i class="fas fa-phone-alt"></i>
+                        <i class="fa-brands fa-discord"></i>
                     </div>
                     <div class="description">
-                        <p>Telefone</p>
-                        <span>(14) 99999-9999</span>
+                        <p>Discord</p>
+                        <a href="https://discord.com/users/pedro_afonsoo" target="_blank">
+                            pe_afonsoo
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
                     </div>
                 </div>
-            </div>
-            <div class="projects" id="projects">
+            </section>
+
+            <section class="projects" id="projects">
                 <div class="title_proj">
-                    <h3>Projectos</h3>
+                    <h3>Projetos</h3>
                 </div>
+
                 <div class="progs">
                     <div class="proj">
                         <div class="img_proj">
+                            <img src="./assets/food-explorer.png"/>
                         </div>
                         <div class="proj_content">
-                            <p>Titulo do projecto</p>
-                            <span>Tecnologias: HTML, CSS e JS.</span>
+                            <p>Food Explorer</p>
+                            <ul class="technologies">
+                                <li class="technology">React</li>
+                                <li class="technology">Styled-components</li>
+                                <li class="technology">Node</li>
+                                <li class="technology">Sqlite</li>
+                                <li class="technology">KnexJS</li>
+                            </ul>
                         </div>
                     </div>
+
                     <div class="proj">
                         <div class="img_proj">
+                            <img src="./assets/rocketMovies.png"/>
                         </div>
                         <div class="proj_content">
-                            <p>Titulo do projecto</p>
-                            <span>Tecnologias: HTML, CSS e JS.</span>
+                            <p>RocketMovies</p>
+                            <ul class="technologies">
+                                <li class="technology">React</li>
+                                <li class="technology">Styled-components</li>
+                                <li class="technology">Node</li>
+                                <li class="technology">Sqlite</li>
+                                <li class="technology">KnexJS</li>
+                            </ul>
                         </div>
                     </div>
+
                     <div class="proj">
                         <div class="img_proj">
+                            <img src="./assets/gitfav.png"/>
                         </div>
                         <div class="proj_content">
-                            <p>Titulo do projecto</p>
-                            <span>Tecnologias: HTML, CSS e JS.</span>
+                            <p>GitFav</p>
+                            <ul class="technologies">
+                                <li class="technology">HTML</li>
+                                <li class="technology">CSS</li>
+                                <li class="technology">JavaScript</li>
+                                <li class="technology">Fetch API</li>
+                                <li class="technology">Github API</li>
+                            </ul>
                         </div>
                     </div>
+
                     <div class="proj">
                         <div class="img_proj">
+                            <img src="./assets/weather-app.png"/>
                         </div>
                         <div class="proj_content">
-                            <p>Titulo do projecto</p>
-                            <span>Tecnologias: HTML, CSS e JS.</span>
+                            <p>Weather App</p>
+                            <ul class="technologies">
+                                <li class="technology">HTML</li>
+                                <li class="technology">CSS</li>
+                                <li class="technology">JavaScript</li>
+                                <li class="technology">Fetch API</li>
+                                <li class="technology">Weather API</li>
+                            </ul>
                         </div>
                     </div>
+
                     <div class="proj">
                         <div class="img_proj">
+                            <img src="./assets/spa-universe.png"/>
                         </div>
                         <div class="proj_content">
-                            <p>Titulo do projecto</p>
-                            <span>Tecnologias: HTML, CSS e JS.</span>
+                            <p>SPA Universe</p>
+                            <ul class="technologies">
+                                <li class="technology">HTML</li>
+                                <li class="technology">CSS</li>
+                                <li class="technology">JavaScript</li>
+                                <li class="technology">Fetch API</li>
+                                <li class="technology">SPA</li>
+                            </ul>
                         </div>
                     </div>
+
                     <div class="proj">
                         <div class="img_proj">
+                            <img src="./assets/pomodoro.png"/>
                         </div>
                         <div class="proj_content">
-                            <p>Titulo do projecto</p>
-                            <span>Tecnologias: HTML, CSS e JS.</span>
+                            <p>Pomodoro Timer</p>
+                            <ul class="technologies">
+                                <li class="technology">HTML</li>
+                                <li class="technology">CSS</li>
+                                <li class="technology">JavaScript</li>
+                                <li class="technology">Factory pattern</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="services" id="services">
+            </section>
+
+            <section class="services" id="services">
                 <div class="service_title">
                     <h3>Serviços</h3>
                 </div>
@@ -178,8 +240,9 @@
                         Responsivos</p>
                     </div>
                 </div>
-            </div>
-            <div class="skills" id="skills">
+            </section>
+
+            <section class="skills" id="skills">
                 <div class="skill_title">
                     <h3>Minhas Skills</h3>
                 </div>
@@ -194,21 +257,33 @@
                         <img src="./assets/javascript.svg" alt="javascript">
                     </div>
                     <div class="skill">
-                        <img src="./assets/tailwind.svg" alt="tailwind">
-                    </div>
-                    <div class="skill">
                         <img src="./assets/react.svg" alt="react">
                     </div>
                     <div class="skill">
-                        <img src="./assets/nextjs.svg" alt="nextjs">
+                        <img src="./assets/nodejs-icon.svg" alt="node">
+                    </div>
+                    <div class="skill">
+                        <img src="./assets/git-icon.svg" alt="git">
+                    </div>
+                    <div class="skill">
+                        <img src="./assets/sass-1.svg" alt="sass">
+                    </div>
+                    <div class="skill">
+                        <img src="./assets/styled-components.svg" alt="styled components">
+                    </div>
+                    <div class="skill">
+                        <img src="./assets/knex-1.svg" alt="knexjs">
+                    </div>
+                    <div class="skill">
+                        <img src="./assets/mysql-logo.svg" alt="mysql">
                     </div>
                 </div>
-            </div>
+            </section>
             </div>
         </main>
         
         <footer class="footer">
-            <p>Orgulhosamente feito por Pedro Afonso</p>
+            <p>Feito com ❤️ por Pedro Afonso 🦸🏽‍♂️</p>
         </footer>
         
     </div>
