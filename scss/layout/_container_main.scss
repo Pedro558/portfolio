@@ -74,8 +74,8 @@
             align-items: center;
 
             .img{
-                height: 300px;
-                width: 300px;
+                height: 230px;
+                width: 230px;
             }
         }
     }
@@ -100,6 +100,7 @@
             line-height: 32px;
             text-align: center;
             color: var(--grey);
+            max-width: 900px;
         }
     }
 
