@@ -1,5 +1,5 @@
 <h1 align="center">
-   🎞 My personal portfolio 👨🏽‍💻
+   👨🏽‍🎨 My personal portfolio 👨🏽‍💻
 </h1>
 
 <p align="center">
